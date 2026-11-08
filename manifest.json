@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "version": 2026110801,
+  "published": "2026-11-08T13:07:43Z",
+  "min_app_version": "1.0.0",
+  "files": {
+    "dtc_codes.json": {
+      "sha256": "c1c7a4c42a34509214f691a2cb19f74b064cb89f039f95c5b5f8ad9d4ff4f7c7",
+      "bytes": 1052100,
+      "codes": 18805
+    },
+    "dtc_psa.json": {
+      "sha256": "edfad2f91454db9aefc4fc0db1443c8a37a7f39167d49cdf8632cb4db05d5241",
+      "bytes": 929516,
+      "codes": 9171
+    },
+    "dtc_oem.json": {
+      "sha256": "f7bec16df271c24c523b95da5ba4044cc2c28dab022a3ee7facf6716071bb4ff",
+      "bytes": 759164,
+      "codes": 7177
+    },
+    "dtc_extra.json": {
+      "sha256": "76cfdfc8f3050cd11fa1c97e2ddf7aa51374d0773257cf7eabd08cc59705b46e",
+      "bytes": 142229,
+      "codes": 2726
+    }
+  },
+  "sources": [
+    {
+      "name": "Genel + marka listeleri",
+      "file": "dtc_codes.json",
+      "license": "MIT / GPL-3.0",
+      "url": "https://github.com/Wal33D/dtc-database",
+      "codes": 18805
+    },
+    {
+      "name": "PSA (Peugeot / Citroën / DS)",
+      "file": "dtc_psa.json",
+      "license": "GPL-3.0",
+      "url": "https://github.com/ludwig-v/arduino-psa-diag",
+      "codes": 9171
+    },
+    {
+      "name": "OEM ECU tanımları",
+      "file": "dtc_oem.json",
+      "license": "GPL-3.0",
+      "url": "https://github.com/laravelcompany/ecudocs.com",
+      "codes": 7177
+    },
+    {
+      "name": "Marka listeleri (ek)",
+      "file": "dtc_extra.json",
+      "license": "GPL-2.0",
+      "url": "https://github.com/dsoprea/DtcLookup",
+      "codes": 2726
+    }
+  ]
+}
